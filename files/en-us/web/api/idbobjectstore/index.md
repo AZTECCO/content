@@ -59,7 +59,7 @@ This example shows a variety of different uses of object stores, from updating t
 
 ```js
 // Let us open our database
-const DBOpenRequest = window.indexedDB.open("toDoList", 4);
+const DBOpenRequest = window.indexedDB.open("myDataBase", 4);
 
 DBOpenRequest.onsuccess = (event) => {
   note.appendChild(document.createElement("li")).textContent =
